@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/02/16 20:18:13.000.140,=C:\Users\Dell\OneDrive - Institute of Business Administration\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024/02/16 20:18:13.000.302,=C:\Users\Dell\OneDrive - Institute of Business Administration\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024/02/16 20:20:55.000.756,C:\Users\Dell\OneDrive - Institute of Business Administration\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\dev\projects\IBA\OOPT\ums\screen.dfm</Transaction>
+    <Transaction>2024/02/16 20:20:55.000.756,C:\Users\Dell\OneDrive - Institute of Business Administration\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\dev\projects\IBA\OOPT\ums\screen.h</Transaction>
+    <Transaction>2024/02/16 20:20:55.000.756,C:\Users\Dell\OneDrive - Institute of Business Administration\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\dev\projects\IBA\OOPT\ums\screen.cpp</Transaction>
+    <Transaction>2024/02/16 20:30:32.000.811,C:\Users\Dell\OneDrive - Institute of Business Administration\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\dev\projects\IBA\OOPT\ums\Project1.cbproj</Transaction>
+    <Transaction>2024/02/16 20:30:32.000.760,C:\Users\Dell\OneDrive - Institute of Business Administration\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\dev\projects\IBA\OOPT\ums\Project1PCH1.h</Transaction>
+    <Transaction>2024/02/16 20:34:07.689,C:\dev\projects\IBA\OOPT\ums\umsPCH1.h=C:\dev\projects\IBA\OOPT\ums\Project1PCH1.h</Transaction>
+    <Transaction>2024/02/16 20:34:07.720,C:\dev\projects\IBA\OOPT\ums\ums.cbproj=C:\dev\projects\IBA\OOPT\ums\Project1.cbproj</Transaction>
+    <Transaction>2024/02/16 20:34:11.755,C:\dev\projects\IBA\OOPT\ums\ums.cbproj=C:\dev\projects\IBA\OOPT\ums\ums.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
