@@ -145,6 +145,15 @@
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="client.cpp">
+            <BuildOrder>5</BuildOrder>
+        </CppCompile>
+        <None Include="client.h">
+            <BuildOrder>3</BuildOrder>
+        </None>
+        <None Include="dotenv.h">
+            <BuildOrder>4</BuildOrder>
+        </None>
         <CppCompile Include="screen.cpp">
             <Form>Form1</Form>
             <FormType>dfm</FormType>

@@ -4,13 +4,31 @@
 #pragma hdrstop
 
 #include "screen.h"
+#include "client.h"
+#include "fstream"
+
+using std::getline, std::fstream, std::string, std::stoi;
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
 TForm1 *Form1;
+
+// Create client instance variable
+TCPClient client;
+fstream credentials_file;
+
 //---------------------------------------------------------------------------
 __fastcall TForm1::TForm1(TComponent* Owner)
 	: TForm(Owner)
 {
+    // Get vars from file
+    string ip, port;
+    credentials_file.open("C:\\dev\\projects\\IBA\\OOPT\\ums\\credentials.txt");
+    getline(credentials_file, ip);
+	getline(credentials_file, port);
+    credentials_file.close();
+
+    // Connect to server
+    client.Connect(ip.c_str(), stoi(port));
 }
 //---------------------------------------------------------------------------
